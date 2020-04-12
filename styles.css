@@ -1,0 +1,13 @@
+#Globe {
+  animation: wheel 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
